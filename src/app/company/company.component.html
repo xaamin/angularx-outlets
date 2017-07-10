@@ -1,0 +1,8 @@
+<p>Company component</p>
+
+<a href="#" [routerLink]="['/company/action/', { outlets: { modal: ['create'], listing: null } } ]">Create company</a>
+<a href="#" [routerLink]="['/company/action/', { outlets: { modal: ['edit'], listing: null } } ]">Edit company</a>
+<a href="#" [routerLink]="['/company/action', { outlets: { modal: null } } ]">Company list</a>
+
+
+<router-outlet></router-outlet>

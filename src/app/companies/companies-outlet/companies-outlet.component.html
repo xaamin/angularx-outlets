@@ -1,0 +1,9 @@
+<p>
+  companies-outlet works!
+</p>
+
+<a href="#" [routerLink]="['/companies/module/', { outlets: { outlet: ['create'], listing: null } } ]">Create company</a>
+<a href="#" [routerLink]="['/companies/module/', { outlets: { outlet: ['edit'], listing: null } } ]">Edit company</a>
+<a href="#" [routerLink]="['/companies/module', { outlets: { outlet: null } } ]">Company list</a>
+
+<router-outlet name="outlet"></router-outlet>
