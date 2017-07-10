@@ -9,7 +9,6 @@ import { CompanyListComponent } from './company-list/company-list.component';
 const routes: Routes = [
     {
         path: '',
-        component: CompanyComponent,
         data: {
             title: 'Empresas'
         },
